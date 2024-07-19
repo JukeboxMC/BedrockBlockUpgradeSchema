@@ -1,0 +1,144 @@
+{
+  "maxVersionMajor": 1,
+  "maxVersionMinor": 21,
+  "maxVersionPatch": 20,
+  "maxVersionRevision": 22,
+  "renamedIds": {
+    "minecraft:yellow_flower": "minecraft:dandelion"
+  },
+  "remappedStates": {
+    "minecraft:light_block": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:light_block",
+          "flattenedProperty": "block_light_level",
+          "suffix": "",
+          "flattenedValueRemaps": {
+            "0": "_0",
+            "1": "_1",
+            "2": "_2",
+            "3": "_3",
+            "4": "_4",
+            "5": "_5",
+            "6": "_6",
+            "7": "_7",
+            "8": "_8",
+            "9": "_9",
+            "10": "_10",
+            "11": "_11",
+            "12": "_12",
+            "13": "_13",
+            "14": "_14",
+            "15": "_15"
+          }
+        },
+        "newState": null
+      }
+    ],
+    "minecraft:sandstone": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:",
+          "flattenedProperty": "sand_stone_type",
+          "suffix": "sandstone",
+          "flattenedValueRemaps": {
+            "default": "",
+            "heiroglyphs": "chiseled_",
+            "cut": "cut_",
+            "smooth": "smooth_"
+          }
+        },
+        "newState": null
+      }
+    ],
+    "minecraft:anvil": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:",
+          "flattenedProperty": "damage",
+          "suffix": "anvil",
+          "flattenedValueRemaps": {
+            "undamaged": "",
+            "slightly_damaged": "chipped_",
+            "very_damaged": "damaged_",
+            "broken": "deprecated_"
+          }
+        },
+        "newState": null,
+        "copiedState": [
+          "minecraft:cardinal_direction"
+        ]
+      }
+    ],
+    "minecraft:quartz_block": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:",
+          "flattenedProperty": "chisel_type",
+          "suffix": "",
+          "flattenedValueRemaps": {
+            "default": "quartz_block",
+            "chiseled": "chiseled_quartz_block",
+            "lines": "quartz_pillar",
+            "smooth": "smooth_quartz"
+          }
+        },
+        "newState": null,
+        "copiedState": [
+          "pillar_axis"
+        ]
+      }
+    ],
+    "minecraft:red_sandstone": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:",
+          "flattenedProperty": "sand_stone_type",
+          "suffix": "red_sandstone",
+          "flattenedValueRemaps": {
+            "default": "",
+            "heiroglyphs": "chiseled_",
+            "cut": "cut_",
+            "smooth": "smooth_"
+          }
+        },
+        "newState": null
+      }
+    ],
+    "minecraft:dirt": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:",
+          "flattenedProperty": "dirt_type",
+          "suffix": "dirt",
+          "flattenedValueRemaps": {
+            "normal": "",
+            "coarse": "coarse_"
+          }
+        },
+        "newState": null
+      }
+    ],
+    "minecraft:sand": [
+      {
+        "oldState": null,
+        "newFlattenedName": {
+          "prefix": "minecraft:",
+          "flattenedProperty": "dirt_type",
+          "suffix": "sand",
+          "flattenedValueRemaps": {
+            "normal": "",
+            "red": "red_"
+          }
+        },
+        "newState": null
+      }
+    ]
+  }
+}
